@@ -1,0 +1,83 @@
+﻿
+
+
+
+
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Profile
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("View Profile", "MyProfile", "Director")</div>
+                    <div class="list-group-item">@Html.ActionLink("Edit Profile", "About", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Logout", "Contact", "Home")</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                   Gpc
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("Assign Chair Person", "Index", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("View Members", "About", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("View Events/Meetings", "Contact", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("View Requests of hire", "Contact", "Home")</div>
+                   </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Reports
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                                         <div class="list-group-item">@Html.ActionLink("View Reports", "Index", "Home")</div>
+                                         <div class="list-group-item">@Html.ActionLink("About", "About", "Home")</div>
+                                         <div class="list-group-item">@Html.ActionLink("Contact", "Contact", "Home")</div>
+ </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                Purchase Requisition
+            </a>
+        </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+        <div class="panel-body">
+            <div class="list-group">
+               <div class="list-group-item">@Html.ActionLink("View PR", "Index", "Home")</div>
+               <div class="list-group-item">@Html.ActionLink("Approved PRs", "About", "Home")</div>
+               <div class="list-group-item">@Html.ActionLink("Updated PRs", "Contact", "Home")</div>
+                  
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,87 @@
+﻿
+
+
+
+
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Profile
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="list-group">
+                     <div class="list-group-item">@Html.ActionLink("View Profile", "MyProfile", "ChairPerson")</div>
+                     <div class="list-group-item">@Html.ActionLink("Edit Profile", "About", "Home")</div>
+                     <div class="list-group-item">@Html.ActionLink("Logout", "Contact", "Home")</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Meeting
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                     <div class="list-group-item">@Html.ActionLink("View All Meetings", "Index", "Home")</div>
+                     <div class="list-group-item">@Html.ActionLink("Call a Meetings", "About", "Home")</div>
+                     <div class="list-group-item">@Html.ActionLink("View PR for Meetings", "Contact", "Home")</div>
+                     <div class="list-group-item">@Html.ActionLink("View Members for Meeting", "Contact", "Home")</div>
+                     <div class="list-group-item">@Html.ActionLink("Postpone Meeting", "Contact", "Home")</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Vendors
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("Add Vendor", "Index", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Remove Vendor", "About", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Rate Vendor", "Contact", "Home")</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                Purchase Requisition
+            </a>
+        </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+        <div class="panel-body">
+            <div class="list-group">
+                <div class="list-group-item">@Html.ActionLink("View PR", "Index", "Home")</div>
+                <div class="list-group-item">@Html.ActionLink("Approved PRs", "About", "Home")</div>
+                <div class="list-group-item">@Html.ActionLink("Update PRs", "Contact", "Home")</div>
+                <div class="list-group-item">@Html.ActionLink("Pending PRs", "Contact", "Home")</div>
+                <div class="list-group-item">@Html.ActionLink("Rejected PRs", "Contact", "Home")</div>
+                <div class="list-group-item">@Html.ActionLink("Assign PRs for Meeting", "assign_to_meeting", "ChairPerson")</div>
+                <div class="list-group-item">@Html.ActionLink("Call Quotaions for PR", "invite_quotation", "ChairPerson")</div>
+            </div>
+        </div>
+    </div>
+</div>

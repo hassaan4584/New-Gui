@@ -1,0 +1,29 @@
+﻿
+<div class="navbar-collapse collapse">
+    <div class="row">
+        <div class="col-md-11">@Html.ActionLink("Staff", "admin_panel", "Home", new { area = "" }, new { @class = "navbar-brand" })</div>
+        <div class="col-md-1">
+
+            <div class="dropdown">
+                <a class="dropdown-toggle"
+                   data-toggle="dropdown"
+                   href="#">
+                    Profile
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <!-- links -->
+                    <li>@Html.ActionLink("View Profile", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Edit Profile", "About", "Home")</li>
+                    <li>@Html.ActionLink("Logout", "Contact", "Home")</li>
+
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+

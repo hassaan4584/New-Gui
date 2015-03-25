@@ -1,0 +1,150 @@
+﻿
+<script>
+    function issue() {
+        alert("Request Sent Successfully");
+    }
+</script>
+
+@{
+    ViewBag.Title = "store";
+    Layout = "~/Views/Shared/Teacher_layout.cshtml";
+}
+<link rel="stylesheet" type="text/css" href="Content/Site.css">
+<h2>Request for Item(s)</h2>
+
+
+<div class="request_items">
+    <label for="exampleInputEmail1">Item Name:</label>
+    <br />
+    <input type="text" class="form-control" placeholder="Enter Required Item">
+    <br/>
+    <label for="exampleInputEmail1">Quantity</label>
+    <br/>
+    <input type="text" class="form-control" placeholder="No of items">
+    <br/>
+    
+    <button type="button" onclick="issue()"class="btn btn-primary">Request Item </button>
+</div>
+
+
+<!--<table class="table table-striped">
+    <tr>
+        <th>S.no</th>
+        <th>Id</th>
+        <th>Itemname</th>
+        <th>Quantity</th>
+        <th>Catagory</th>
+        <th>options</th>
+
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    <tr>
+        <td>1</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td>Dummy</td>
+        <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+    </tr>
+    
+
+    </tr>
+</table>
+
+<!-- Modal -->
+<!--
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <p class="bg-success">Enter Quantity</p>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Enter Quantity</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" id="quant" placeholder="Quantity Ex. 10">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                * Only for authorized Users of GPC
+            </div>
+        </div>
+    </div>
+</div>
+-->

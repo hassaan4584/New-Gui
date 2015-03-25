@@ -1,0 +1,115 @@
+﻿@model Identity.Models.PurchaseRequest
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/Chairperson_gpc_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PurchaseRequest</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Issued_by)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Issued_by)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Issue_Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Issue_Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.current_status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.current_status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount_in_words)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amount_in_words)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Approved_budget)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Approved_budget)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Balance_over_budget)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Balance_over_budget)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.demandID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.demandID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vendorname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vendorname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.authorized_by)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.authorized_by)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.verified_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.verified_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Authorization_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Authorization_date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PR_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

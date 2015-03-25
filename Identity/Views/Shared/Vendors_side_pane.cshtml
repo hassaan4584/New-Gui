@@ -1,0 +1,82 @@
+﻿
+
+
+
+
+
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Profile
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("View Profile", "Index", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Edit Profile", "About", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Logout", "Contact", "Home")</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                   Purchase Order
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("View Purchase Order", "Purchase_Order", "Vendor")</div>
+                    <div class="list-group-item">@Html.ActionLink("Ask For review", "About", "Home")</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Quotations
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("View PR", "pr", "Vendor")</div>
+                    <div class="list-group-item">@Html.ActionLink("Create Quotaions", "pr", "Vendor")</div>
+                    <div class="list-group-item">@Html.ActionLink("Update Quotaion", "pr", "Vendor")</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+               Reports
+            </a>
+        </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+        <div class="panel-body">
+            <div class="list-group">
+                <div class="list-group-item">@Html.ActionLink("View Reports", "Index", "Home")</div>
+                <div class="list-group-item">@Html.ActionLink("Delivery Reports", "About", "Home")</div>
+               
+            </div>
+        </div>
+    </div>
+</div>

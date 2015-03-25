@@ -1,0 +1,83 @@
+﻿
+
+
+
+
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Profile
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("View Profile", "MyProfile", "AccountsDept")</div>
+                    <div class="list-group-item">@Html.ActionLink("Edit Profile", "About", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Logout", "Contact", "Home")</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                   Payments
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("View Previous Payments", "Index", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Payments Reports", "About", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Make Payment Draft", "Contact", "Home")</div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Purchase Order
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("View approved PRs", "Index", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Make Purchase Order", "About", "Home")</div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                Budgets
+            </a>
+        </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+        <div class="panel-body">
+            <div class="list-group">
+                <div class="list-group-item">@Html.ActionLink("View PRs Requested Budget", "Index", "Home")</div>
+                <div class="list-group-item">@Html.ActionLink("Assign Budget", "About", "Home")</div>
+                <div class="list-group-item">@Html.ActionLink("Print Buget Report", "Contact", "Home")</div>
+
+            </div>
+        </div>
+    </div>
+</div>

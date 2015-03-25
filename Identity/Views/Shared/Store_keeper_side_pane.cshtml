@@ -1,0 +1,68 @@
+﻿
+
+
+
+
+
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Profile
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("View Profile", "MyProfile", "StoreKeeper")</div>
+                    <div class="list-group-item">@Html.ActionLink("Edit Profile", "About", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("Logout", "Index", "Home")</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Products
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("Receive", "Receive_product", "StoreKeeper")</div>
+                    <div class="list-group-item">@Html.ActionLink("Issue", "issue_product", "StoreKeeper")</div>
+                    <div class="list-group-item">@Html.ActionLink("Product Reports", "Contact", "Home")</div>
+                    <div class="list-group-item">@Html.ActionLink("View Item Demands", "ViewItemDemands", "StoreKeeper")</div>
+                    <div class="list-group-item">@Html.ActionLink("View PR Details", "PR_details", "StoreKeeper")</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Purchase Requisition
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="list-group">
+                    <div class="list-group-item">@Html.ActionLink("Request for PR", "Prepare_Purchase_Requisition", "StoreKeeper")</div>
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
