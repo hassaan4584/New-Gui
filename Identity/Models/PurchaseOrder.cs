@@ -8,7 +8,8 @@ namespace Identity.Models
 {
     public class PurchaseOrder
     {
-        [Key]
+
+		[Key]
         [Display(Name = "Purchase Order No.")]
         public int PurchaseOrderID { get; set; }
 
