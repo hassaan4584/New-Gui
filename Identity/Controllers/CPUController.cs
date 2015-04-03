@@ -8,7 +8,7 @@ namespace Identity.Controllers
 {
     public class CPUController : Controller
     {
-        // GET: CPU
+         // GET: CPU
         public ActionResult Index()
         {
             return View();
